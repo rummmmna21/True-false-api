@@ -20,8 +20,8 @@ const QuestionSchema = new mongoose.Schema({
 const Question = mongoose.model("Question", QuestionSchema);
 
 // ✅ GitHub raw file links (তোমার GitHub repo এর link এখানে দাও)
-const githubTruthURL = "https://raw.githubusercontent.com/<your-github-user>/<your-repo>/main/truth.json";
-const githubDareURL = "https://raw.githubusercontent.com/<your-github-user>/<your-repo>/main/dare.json";
+const githubTruthURL = "https://raw.githubusercontent.com/rummmmna21/Rx-apis/main/truth.json";
+const githubDareURL = "https://raw.githubusercontent.com/rummmmna21/Rx-apis/main/dare.json";
 
 // 🧠 Update MongoDB from GitHub
 async function updateFromGitHub() {
